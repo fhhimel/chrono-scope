@@ -23,7 +23,11 @@ const News = () => {
             <NewsItem
               article_id={element.article_id}
               title={element.title}
-              description={element.description.slice(0, 200) + "..."}
+              description={
+                element.description
+                  ? element.description.slice(0, 200) + "..."
+                  : "N/A"
+              }
               //description={element.description}
               image={element.image_url}
               link={element.link}
