@@ -31,6 +31,7 @@ const News = () => {
               //description={element.description}
               image={element.image_url}
               link={element.link}
+              source={element.source_id}
             />
           </div>
         );

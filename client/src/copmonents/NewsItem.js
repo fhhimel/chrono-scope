@@ -8,13 +8,19 @@ const NewsItem = (props) => {
         style={{ width: "" }}
         key={props.article_id}
       >
+        <span class="badge position-absolute top-0 start-50 translate-middle rounded-pill text-bg-danger news_source">
+          {props.source}
+        </span>
+
         <img src={props.image} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text">{props.description}</p>
-          <a href={props.link} className="btn btn-primary">
-            Click here
-          </a>
+          <div className="text-center">
+            <a href={props.link} className="btn btn-dark">
+              Details
+            </a>
+          </div>
         </div>
       </div>
     </>

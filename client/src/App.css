@@ -9,8 +9,13 @@
 }
 .news_item_card h5 {
   height: 50px;
+  font-size: 16px;
   font-weight: bold;
 }
 .news_item_card p {
-  height: 150px;
+  font-size: 16px;
+  height: 120px;
+}
+.news_source {
+  font-size: 14px;
 }
