@@ -1,0 +1,10 @@
+.news_item_card img {
+  height: 200px;
+}
+.news_item_card h5 {
+  height: 50px;
+  font-weight: bold;
+}
+.news_item_card p {
+  height: 150px;
+}
