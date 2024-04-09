@@ -1,3 +1,9 @@
+.news_item_card {
+  font-family: "Tiro Bangla", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .news_item_card img {
   height: 200px;
 }
