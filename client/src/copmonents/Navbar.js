@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
+          <Link className="navbar-brand" to="/">
+            ChronoScope
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,14 +23,44 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Home
-                </a>
+                <Link className="nav-link" to="/world">
+                  World
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Link
-                </a>
+                <Link className="nav-link" to="/politics">
+                  Politics
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/science">
+                  Science
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/tourism">
+                  Tourism
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/education">
+                  Education
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/sports">
+                  Sports
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/lifestyle">
+                  Lifestyle
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/health">
+                  Health
+                </Link>
               </li>
             </ul>
             <form className="d-flex" role="search">

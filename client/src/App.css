@@ -1,21 +1,24 @@
 .news_item_card {
   font-family: "Tiro Bangla", serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .news_item_card img {
   height: 200px;
 }
-.news_item_card h5 {
-  height: 50px;
+.news_item_card h3 {
+  height: 100px;
   font-size: 16px;
   font-weight: bold;
 }
 .news_item_card p {
-  font-size: 16px;
-  height: 120px;
+  font-size: 14px;
+  height: 150px;
 }
 .news_source {
   font-size: 14px;
+}
+
+.loading_img {
+  width: 100px;
+  height: 100px;
 }
