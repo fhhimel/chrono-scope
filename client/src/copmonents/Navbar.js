@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            ChronoScope
+            ChronoView
           </Link>
           <button
             className="navbar-toggler"
